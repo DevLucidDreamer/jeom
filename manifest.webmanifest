@@ -1,0 +1,17 @@
+{
+  "name": "이음 - 디지털 기기 연습",
+  "short_name": "이음",
+  "description": "키오스크 같은 디지털 기기 사용법을 단계별로 천천히 연습하는 앱",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF7F0",
+  "theme_color": "#3B7D2C",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko" data-font="normal" data-contrast="normal" data-guide="both">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>이음 - 디지털 기기 연습</title>
+  <meta name="description" content="키오스크 같은 디지털 기기 사용법을 단계별로 천천히 연습하는 앱">
+  <meta name="theme-color" content="#3B7D2C">
+  <meta name="color-scheme" content="light">
+
+  <!-- PWA(앱처럼 설치) 설정 -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon-48.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="이음">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <!-- 화면 내용은 js/app.js 가 이 안에 그려요 -->
+  <main id="app"></main>
+
+  <!-- 잠깐 떴다 사라지는 알림 -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <!-- 확인 창 -->
+  <div id="dialog-root"></div>
+
+  <noscript>
+    <p style="padding:24px;font-size:20px">이 앱을 쓰려면 자바스크립트를 켜 주세요.</p>
+  </noscript>
+</body>
+</html>
